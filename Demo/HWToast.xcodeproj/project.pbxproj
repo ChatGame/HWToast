@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B5E7551B5F43EF00D09207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7541B5F43EF00D09207 /* main.m */; };
+		96B5E7581B5F43EF00D09207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7571B5F43EF00D09207 /* AppDelegate.m */; };
+		96B5E75E1B5F43EF00D09207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B5E75C1B5F43EF00D09207 /* Main.storyboard */; };
+		96B5E7601B5F43EF00D09207 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B5E75F1B5F43EF00D09207 /* Images.xcassets */; };
+		96B5E7631B5F43EF00D09207 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B5E7611B5F43EF00D09207 /* LaunchScreen.xib */; };
+		96B5E7941B5F45D100D09207 /* NSString+HWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E77D1B5F45D100D09207 /* NSString+HWToast.m */; };
+		96B5E7951B5F45D100D09207 /* HWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E77F1B5F45D100D09207 /* HWToast.m */; };
+		96B5E7961B5F45D100D09207 /* HWToastMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7811B5F45D100D09207 /* HWToastMaker.m */; };
+		96B5E7991B5F45D100D09207 /* HWLoadingToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7881B5F45D100D09207 /* HWLoadingToastView.m */; };
+		96B5E79A1B5F45D100D09207 /* HWPieChartToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E78A1B5F45D100D09207 /* HWPieChartToastView.m */; };
+		96B5E79C1B5F45D100D09207 /* HWToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E78E1B5F45D100D09207 /* HWToastView.m */; };
+		96B5E79D1B5F45D100D09207 /* HWActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7911B5F45D100D09207 /* HWActivityIndicatorView.m */; };
+		96B5E79E1B5F45D100D09207 /* HWPieChartProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7931B5F45D100D09207 /* HWPieChartProgressView.m */; };
+		96B5E7A11B5F4BC500D09207 /* HWToastDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7A01B5F4BC500D09207 /* HWToastDemoViewController.m */; };
+		96B5E7A41B5F4C4100D09207 /* HWToolDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7A31B5F4C4100D09207 /* HWToolDemoViewController.m */; };
+		96B5E7A71B5F4C4F00D09207 /* HWPermanentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7A61B5F4C4F00D09207 /* HWPermanentViewController.m */; };
+		96B5E7AA1B5F730F00D09207 /* UIView+HWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7A91B5F730F00D09207 /* UIView+HWToast.m */; };
+		96B5E7AE1B5F83FC00D09207 /* HWToastImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96B5E7AD1B5F83FC00D09207 /* HWToastImage.bundle */; };
+		96B5E7B51B5F863500D09207 /* HWToastTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7B41B5F863500D09207 /* HWToastTool.m */; };
+		96B5E7B81B5F8E6F00D09207 /* HWToastTool+Permanent.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7B71B5F8E6F00D09207 /* HWToastTool+Permanent.m */; };
+		96B5E7BE1B5F90D400D09207 /* HWTextToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7BD1B5F90D400D09207 /* HWTextToastView.m */; };
+		96B5E7C41B5FCEA200D09207 /* NSTimer+HWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5E7C31B5FCEA200D09207 /* NSTimer+HWToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96B5E74F1B5F43EF00D09207 /* HWToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B5E7531B5F43EF00D09207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B5E7541B5F43EF00D09207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96B5E7561B5F43EF00D09207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96B5E7571B5F43EF00D09207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96B5E75D1B5F43EF00D09207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96B5E75F1B5F43EF00D09207 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96B5E7621B5F43EF00D09207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96B5E77C1B5F45D100D09207 /* NSString+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HWToast.h"; sourceTree = "<group>"; };
+		96B5E77D1B5F45D100D09207 /* NSString+HWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HWToast.m"; sourceTree = "<group>"; };
+		96B5E77E1B5F45D100D09207 /* HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToast.h; sourceTree = "<group>"; };
+		96B5E77F1B5F45D100D09207 /* HWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToast.m; sourceTree = "<group>"; };
+		96B5E7801B5F45D100D09207 /* HWToastMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastMaker.h; sourceTree = "<group>"; };
+		96B5E7811B5F45D100D09207 /* HWToastMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToastMaker.m; sourceTree = "<group>"; };
+		96B5E7871B5F45D100D09207 /* HWLoadingToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLoadingToastView.h; sourceTree = "<group>"; };
+		96B5E7881B5F45D100D09207 /* HWLoadingToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLoadingToastView.m; sourceTree = "<group>"; };
+		96B5E7891B5F45D100D09207 /* HWPieChartToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPieChartToastView.h; sourceTree = "<group>"; };
+		96B5E78A1B5F45D100D09207 /* HWPieChartToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPieChartToastView.m; sourceTree = "<group>"; };
+		96B5E78D1B5F45D100D09207 /* HWToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastView.h; sourceTree = "<group>"; };
+		96B5E78E1B5F45D100D09207 /* HWToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToastView.m; sourceTree = "<group>"; };
+		96B5E7901B5F45D100D09207 /* HWActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWActivityIndicatorView.h; sourceTree = "<group>"; };
+		96B5E7911B5F45D100D09207 /* HWActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWActivityIndicatorView.m; sourceTree = "<group>"; };
+		96B5E7921B5F45D100D09207 /* HWPieChartProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPieChartProgressView.h; sourceTree = "<group>"; };
+		96B5E7931B5F45D100D09207 /* HWPieChartProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPieChartProgressView.m; sourceTree = "<group>"; };
+		96B5E79F1B5F4BC500D09207 /* HWToastDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastDemoViewController.h; sourceTree = "<group>"; };
+		96B5E7A01B5F4BC500D09207 /* HWToastDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToastDemoViewController.m; sourceTree = "<group>"; };
+		96B5E7A21B5F4C4100D09207 /* HWToolDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToolDemoViewController.h; sourceTree = "<group>"; };
+		96B5E7A31B5F4C4100D09207 /* HWToolDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToolDemoViewController.m; sourceTree = "<group>"; };
+		96B5E7A51B5F4C4F00D09207 /* HWPermanentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPermanentViewController.h; sourceTree = "<group>"; };
+		96B5E7A61B5F4C4F00D09207 /* HWPermanentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPermanentViewController.m; sourceTree = "<group>"; };
+		96B5E7A81B5F730F00D09207 /* UIView+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HWToast.h"; sourceTree = "<group>"; };
+		96B5E7A91B5F730F00D09207 /* UIView+HWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HWToast.m"; sourceTree = "<group>"; };
+		96B5E7AD1B5F83FC00D09207 /* HWToastImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HWToastImage.bundle; sourceTree = "<group>"; };
+		96B5E7B31B5F863500D09207 /* HWToastTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastTool.h; sourceTree = "<group>"; };
+		96B5E7B41B5F863500D09207 /* HWToastTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToastTool.m; sourceTree = "<group>"; };
+		96B5E7B61B5F8E6F00D09207 /* HWToastTool+Permanent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HWToastTool+Permanent.h"; sourceTree = "<group>"; };
+		96B5E7B71B5F8E6F00D09207 /* HWToastTool+Permanent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HWToastTool+Permanent.m"; sourceTree = "<group>"; };
+		96B5E7BC1B5F90D400D09207 /* HWTextToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTextToastView.h; sourceTree = "<group>"; };
+		96B5E7BD1B5F90D400D09207 /* HWTextToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTextToastView.m; sourceTree = "<group>"; };
+		96B5E7C21B5FCEA200D09207 /* NSTimer+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HWToast.h"; sourceTree = "<group>"; };
+		96B5E7C31B5FCEA200D09207 /* NSTimer+HWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HWToast.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B5E74C1B5F43EF00D09207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B5E7461B5F43EF00D09207 = {
+			isa = PBXGroup;
+			children = (
+				96B5E77A1B5F45D100D09207 /* Classes */,
+				96B5E7511B5F43EF00D09207 /* HWToast */,
+				96B5E7501B5F43EF00D09207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B5E7501B5F43EF00D09207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B5E74F1B5F43EF00D09207 /* HWToast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B5E7511B5F43EF00D09207 /* HWToast */ = {
+			isa = PBXGroup;
+			children = (
+				96B5E7561B5F43EF00D09207 /* AppDelegate.h */,
+				96B5E7571B5F43EF00D09207 /* AppDelegate.m */,
+				96B5E75C1B5F43EF00D09207 /* Main.storyboard */,
+				96B5E79F1B5F4BC500D09207 /* HWToastDemoViewController.h */,
+				96B5E7A01B5F4BC500D09207 /* HWToastDemoViewController.m */,
+				96B5E7A21B5F4C4100D09207 /* HWToolDemoViewController.h */,
+				96B5E7A31B5F4C4100D09207 /* HWToolDemoViewController.m */,
+				96B5E7A51B5F4C4F00D09207 /* HWPermanentViewController.h */,
+				96B5E7A61B5F4C4F00D09207 /* HWPermanentViewController.m */,
+				96B5E75F1B5F43EF00D09207 /* Images.xcassets */,
+				96B5E7611B5F43EF00D09207 /* LaunchScreen.xib */,
+				96B5E7521B5F43EF00D09207 /* Supporting Files */,
+			);
+			path = HWToast;
+			sourceTree = "<group>";
+		};
+		96B5E7521B5F43EF00D09207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B5E7531B5F43EF00D09207 /* Info.plist */,
+				96B5E7541B5F43EF00D09207 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96B5E77A1B5F45D100D09207 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96B5E7AD1B5F83FC00D09207 /* HWToastImage.bundle */,
+				96B5E77E1B5F45D100D09207 /* HWToast.h */,
+				96B5E77F1B5F45D100D09207 /* HWToast.m */,
+				96B5E7801B5F45D100D09207 /* HWToastMaker.h */,
+				96B5E7811B5F45D100D09207 /* HWToastMaker.m */,
+				96B5E7821B5F45D100D09207 /* HWToastView */,
+				96B5E78F1B5F45D100D09207 /* View */,
+				96B5E7B21B5F862C00D09207 /* Tool */,
+				96B5E77B1B5F45D100D09207 /* Category */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		96B5E77B1B5F45D100D09207 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				96B5E77C1B5F45D100D09207 /* NSString+HWToast.h */,
+				96B5E77D1B5F45D100D09207 /* NSString+HWToast.m */,
+				96B5E7A81B5F730F00D09207 /* UIView+HWToast.h */,
+				96B5E7A91B5F730F00D09207 /* UIView+HWToast.m */,
+				96B5E7C21B5FCEA200D09207 /* NSTimer+HWToast.h */,
+				96B5E7C31B5FCEA200D09207 /* NSTimer+HWToast.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		96B5E7821B5F45D100D09207 /* HWToastView */ = {
+			isa = PBXGroup;
+			children = (
+				96B5E78D1B5F45D100D09207 /* HWToastView.h */,
+				96B5E78E1B5F45D100D09207 /* HWToastView.m */,
+				96B5E7BC1B5F90D400D09207 /* HWTextToastView.h */,
+				96B5E7BD1B5F90D400D09207 /* HWTextToastView.m */,
+				96B5E7871B5F45D100D09207 /* HWLoadingToastView.h */,
+				96B5E7881B5F45D100D09207 /* HWLoadingToastView.m */,
+				96B5E7891B5F45D100D09207 /* HWPieChartToastView.h */,
+				96B5E78A1B5F45D100D09207 /* HWPieChartToastView.m */,
+			);
+			path = HWToastView;
+			sourceTree = "<group>";
+		};
+		96B5E78F1B5F45D100D09207 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96B5E7901B5F45D100D09207 /* HWActivityIndicatorView.h */,
+				96B5E7911B5F45D100D09207 /* HWActivityIndicatorView.m */,
+				96B5E7921B5F45D100D09207 /* HWPieChartProgressView.h */,
+				96B5E7931B5F45D100D09207 /* HWPieChartProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96B5E7B21B5F862C00D09207 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				96B5E7B31B5F863500D09207 /* HWToastTool.h */,
+				96B5E7B41B5F863500D09207 /* HWToastTool.m */,
+				96B5E7B61B5F8E6F00D09207 /* HWToastTool+Permanent.h */,
+				96B5E7B71B5F8E6F00D09207 /* HWToastTool+Permanent.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B5E74E1B5F43EF00D09207 /* HWToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B5E7721B5F43EF00D09207 /* Build configuration list for PBXNativeTarget "HWToast" */;
+			buildPhases = (
+				96B5E74B1B5F43EF00D09207 /* Sources */,
+				96B5E74C1B5F43EF00D09207 /* Frameworks */,
+				96B5E74D1B5F43EF00D09207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWToast;
+			productName = HWToast;
+			productReference = 96B5E74F1B5F43EF00D09207 /* HWToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B5E7471B5F43EF00D09207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = why;
+				TargetAttributes = {
+					96B5E74E1B5F43EF00D09207 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 96B5E74A1B5F43EF00D09207 /* Build configuration list for PBXProject "HWToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96B5E7461B5F43EF00D09207;
+			productRefGroup = 96B5E7501B5F43EF00D09207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B5E74E1B5F43EF00D09207 /* HWToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B5E74D1B5F43EF00D09207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B5E7AE1B5F83FC00D09207 /* HWToastImage.bundle in Resources */,
+				96B5E75E1B5F43EF00D09207 /* Main.storyboard in Resources */,
+				96B5E7631B5F43EF00D09207 /* LaunchScreen.xib in Resources */,
+				96B5E7601B5F43EF00D09207 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B5E74B1B5F43EF00D09207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B5E7B51B5F863500D09207 /* HWToastTool.m in Sources */,
+				96B5E7951B5F45D100D09207 /* HWToast.m in Sources */,
+				96B5E79A1B5F45D100D09207 /* HWPieChartToastView.m in Sources */,
+				96B5E7581B5F43EF00D09207 /* AppDelegate.m in Sources */,
+				96B5E7941B5F45D100D09207 /* NSString+HWToast.m in Sources */,
+				96B5E7A41B5F4C4100D09207 /* HWToolDemoViewController.m in Sources */,
+				96B5E7551B5F43EF00D09207 /* main.m in Sources */,
+				96B5E79C1B5F45D100D09207 /* HWToastView.m in Sources */,
+				96B5E7BE1B5F90D400D09207 /* HWTextToastView.m in Sources */,
+				96B5E79E1B5F45D100D09207 /* HWPieChartProgressView.m in Sources */,
+				96B5E7B81B5F8E6F00D09207 /* HWToastTool+Permanent.m in Sources */,
+				96B5E7C41B5FCEA200D09207 /* NSTimer+HWToast.m in Sources */,
+				96B5E7AA1B5F730F00D09207 /* UIView+HWToast.m in Sources */,
+				96B5E7991B5F45D100D09207 /* HWLoadingToastView.m in Sources */,
+				96B5E79D1B5F45D100D09207 /* HWActivityIndicatorView.m in Sources */,
+				96B5E7A11B5F4BC500D09207 /* HWToastDemoViewController.m in Sources */,
+				96B5E7A71B5F4C4F00D09207 /* HWPermanentViewController.m in Sources */,
+				96B5E7961B5F45D100D09207 /* HWToastMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96B5E75C1B5F43EF00D09207 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B5E75D1B5F43EF00D09207 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96B5E7611B5F43EF00D09207 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B5E7621B5F43EF00D09207 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96B5E7701B5F43EF00D09207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B5E7711B5F43EF00D09207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96B5E7731B5F43EF00D09207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96B5E7741B5F43EF00D09207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B5E74A1B5F43EF00D09207 /* Build configuration list for PBXProject "HWToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B5E7701B5F43EF00D09207 /* Debug */,
+				96B5E7711B5F43EF00D09207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B5E7721B5F43EF00D09207 /* Build configuration list for PBXNativeTarget "HWToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B5E7731B5F43EF00D09207 /* Debug */,
+				96B5E7741B5F43EF00D09207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B5E7471B5F43EF00D09207 /* Project object */;
+}

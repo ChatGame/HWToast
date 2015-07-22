@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f0A-sg-jVn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="bQX-UP-MxJ">
+            <objects>
+                <navigationController id="f0A-sg-jVn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HLn-q3-L5n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EYN-dN-Oj1" kind="relationship" relationship="rootViewController" id="Kcg-3K-at7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svj-AU-krF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524" y="646"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hwc-hi-Lyg">
+            <objects>
+                <viewController id="EYN-dN-Oj1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N43-8G-hr3"/>
+                        <viewControllerLayoutGuide type="bottom" id="9sn-vp-6sX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qwZ-hJ-KiV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMp-vP-BJC">
+                                <rect key="frame" x="246" y="164" width="107" height="30"/>
+                                <state key="normal" title="HWToast Demo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Eep-RU-OSL" kind="show" id="m77-lG-dNQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jq2-cb-s1m">
+                                <rect key="frame" x="236" y="244" width="127" height="30"/>
+                                <state key="normal" title="HWHudTool Demo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jhp-6D-W7E" kind="show" id="oIh-FW-yqf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcF-kX-hjr">
+                                <rect key="frame" x="194" y="324" width="211" height="30"/>
+                                <state key="normal" title="HWHudTool+Permanent Demo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jm1-nD-Poe" kind="show" id="Apd-6B-E4m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pMp-vP-BJC" firstAttribute="top" secondItem="N43-8G-hr3" secondAttribute="bottom" constant="100" id="0tT-30-Am5"/>
+                            <constraint firstItem="OcF-kX-hjr" firstAttribute="centerX" secondItem="jq2-cb-s1m" secondAttribute="centerX" id="1t6-YU-FIe"/>
+                            <constraint firstAttribute="centerX" secondItem="pMp-vP-BJC" secondAttribute="centerX" id="EJx-I0-7ls"/>
+                            <constraint firstItem="OcF-kX-hjr" firstAttribute="top" secondItem="jq2-cb-s1m" secondAttribute="bottom" constant="50" id="JtP-gZ-4er"/>
+                            <constraint firstItem="jq2-cb-s1m" firstAttribute="top" secondItem="pMp-vP-BJC" secondAttribute="bottom" constant="50" id="aGF-y7-0fN"/>
+                            <constraint firstItem="jq2-cb-s1m" firstAttribute="centerX" secondItem="pMp-vP-BJC" secondAttribute="centerX" id="adc-3L-Eac"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1eC-nl-GW9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p8s-OC-Kag" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="646"/>
+        </scene>
+        <!--Toast Demo View Controller-->
+        <scene sceneID="ymZ-QY-zTD">
+            <objects>
+                <viewController id="Eep-RU-OSL" customClass="HWToastDemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4ZI-u0-zlm"/>
+                        <viewControllerLayoutGuide type="bottom" id="oiq-Bb-M7N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WSs-FE-WSL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLE-yq-4um">
+                                <rect key="frame" x="246" y="114" width="108" height="30"/>
+                                <state key="normal" title="Show text toast">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showTextToast:" destination="Eep-RU-OSL" eventType="touchUpInside" id="cKW-b1-Dcc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39d-za-gKL">
+                                <rect key="frame" x="161" y="164" width="278" height="30"/>
+                                <state key="normal" title="Show text toast and disable background">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showTextToastWithDisableBackground:" destination="Eep-RU-OSL" eventType="touchUpInside" id="mB9-0n-Y0Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqq-8g-QZx">
+                                <rect key="frame" x="195" y="264" width="210" height="30"/>
+                                <state key="normal" title="Show loading toast with style1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showLoadingToast1:" destination="Eep-RU-OSL" eventType="touchUpInside" id="m7P-cL-nXZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZi-hb-mNY">
+                                <rect key="frame" x="229" y="214" width="142" height="30"/>
+                                <state key="normal" title="Show pie chart toast">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showPieChartToast:" destination="Eep-RU-OSL" eventType="touchUpInside" id="5W9-Br-gDP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKl-5a-2vQ">
+                                <rect key="frame" x="195" y="314" width="210" height="30"/>
+                                <state key="normal" title="Show loading toast with style2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showLoadingToast2:" destination="Eep-RU-OSL" eventType="touchUpInside" id="V44-t8-iRI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQi-Au-tLK">
+                                <rect key="frame" x="195" y="364" width="209" height="30"/>
+                                <state key="normal" title="Show text toast with tap block">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showTextWithBlock:" destination="Eep-RU-OSL" eventType="touchUpInside" id="JJw-eI-aEg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rZi-hb-mNY" firstAttribute="centerX" secondItem="39d-za-gKL" secondAttribute="centerX" id="AKa-wT-59o"/>
+                            <constraint firstItem="rZi-hb-mNY" firstAttribute="top" secondItem="39d-za-gKL" secondAttribute="bottom" constant="20" id="Cq3-fU-fJW"/>
+                            <constraint firstItem="39d-za-gKL" firstAttribute="top" secondItem="JLE-yq-4um" secondAttribute="bottom" constant="20" id="Kof-ob-WnW"/>
+                            <constraint firstItem="rZi-hb-mNY" firstAttribute="centerX" secondItem="sqq-8g-QZx" secondAttribute="centerX" id="PJN-MO-41C"/>
+                            <constraint firstAttribute="centerX" secondItem="JLE-yq-4um" secondAttribute="centerX" id="QHc-sC-ehE"/>
+                            <constraint firstItem="JLE-yq-4um" firstAttribute="top" secondItem="4ZI-u0-zlm" secondAttribute="bottom" constant="50" id="dn1-f2-vy9"/>
+                            <constraint firstItem="sqq-8g-QZx" firstAttribute="centerX" secondItem="YKl-5a-2vQ" secondAttribute="centerX" id="fN5-cJ-vL5"/>
+                            <constraint firstItem="39d-za-gKL" firstAttribute="centerX" secondItem="JLE-yq-4um" secondAttribute="centerX" id="fnj-QN-jPy"/>
+                            <constraint firstItem="YKl-5a-2vQ" firstAttribute="top" secondItem="sqq-8g-QZx" secondAttribute="bottom" constant="20" id="g7d-cg-5Au"/>
+                            <constraint firstItem="YQi-Au-tLK" firstAttribute="top" secondItem="YKl-5a-2vQ" secondAttribute="bottom" constant="20" id="q6Y-mb-UrW"/>
+                            <constraint firstItem="YQi-Au-tLK" firstAttribute="centerX" secondItem="YKl-5a-2vQ" secondAttribute="centerX" id="qY4-s0-f43"/>
+                            <constraint firstItem="sqq-8g-QZx" firstAttribute="top" secondItem="rZi-hb-mNY" secondAttribute="bottom" constant="20" id="r5h-LQ-U5m"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdN-zn-uFH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969" y="-95"/>
+        </scene>
+        <!--Tool Demo View Controller-->
+        <scene sceneID="OdG-N9-RDM">
+            <objects>
+                <viewController id="jhp-6D-W7E" customClass="HWToolDemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KkZ-ea-ZLh"/>
+                        <viewControllerLayoutGuide type="bottom" id="6o8-cR-hzX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ee8-Ij-hCP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNA-OH-lAW">
+                                <rect key="frame" x="197" y="114" width="206" height="30"/>
+                                <state key="normal" title="Show text toast and tap event">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showTextToast:" destination="jhp-6D-W7E" eventType="touchUpInside" id="epb-Vb-7CL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="iNA-OH-lAW" secondAttribute="centerX" id="3oP-HK-ANd"/>
+                            <constraint firstItem="iNA-OH-lAW" firstAttribute="top" secondItem="KkZ-ea-ZLh" secondAttribute="bottom" constant="50" id="DQa-3H-Zf6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="opr-cb-pQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969" y="646"/>
+        </scene>
+        <!--Permanent View Controller-->
+        <scene sceneID="9Eg-oq-TaB">
+            <objects>
+                <viewController id="jm1-nD-Poe" customClass="HWPermanentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fbr-80-tLO"/>
+                        <viewControllerLayoutGuide type="bottom" id="zaC-qU-owa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ekl-fV-pcv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klu-68-wJK">
+                                <rect key="frame" x="207" y="114" width="186" height="30"/>
+                                <state key="normal" title="Show permanent text toast">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showPermanentToast:" destination="jm1-nD-Poe" eventType="touchUpInside" id="1EV-pA-Moj"/>
+                                    <action selector="showTextToast:" destination="jhp-6D-W7E" eventType="touchUpInside" id="GIF-yi-X3R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6x-h0-YZd">
+                                <rect key="frame" x="199" y="164" width="201" height="30"/>
+                                <state key="normal" title="Dismiss permanent text toast">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissToast:" destination="jm1-nD-Poe" eventType="touchUpInside" id="92l-xh-Gfq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K6x-h0-YZd" firstAttribute="centerX" secondItem="Klu-68-wJK" secondAttribute="centerX" id="XiF-hI-fEG"/>
+                            <constraint firstAttribute="centerX" secondItem="Klu-68-wJK" secondAttribute="centerX" id="h3o-14-wmA"/>
+                            <constraint firstItem="Klu-68-wJK" firstAttribute="top" secondItem="fbr-80-tLO" secondAttribute="bottom" constant="50" id="kC1-Uc-Z6M"/>
+                            <constraint firstItem="K6x-h0-YZd" firstAttribute="top" secondItem="Klu-68-wJK" secondAttribute="bottom" constant="20" id="uAb-TW-CyB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VBf-sb-bds" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969" y="1398"/>
+        </scene>
+    </scenes>
+</document>
