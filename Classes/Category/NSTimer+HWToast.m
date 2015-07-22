@@ -15,13 +15,7 @@
     return timer;
 }
 
-+ (NSTimer *)timerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats {
-    void (^block)() = [inBlock copy];
-    NSTimer * timer = [self timerWithTimeInterval:inTimeInterval target:self selector:@selector(__executeTimerBlock:) userInfo:block repeats:inRepeats];
-    return timer;
-}
-
-+ (void)executeTimerBlock:(NSTimer *)inTimer; {
++ (void)__executeTimerBlock:(NSTimer *)inTimer; {
     if([inTimer userInfo]) {
         void (^block)() = (void (^)())[inTimer userInfo];
         block();

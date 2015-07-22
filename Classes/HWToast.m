@@ -103,7 +103,7 @@ static const NSTimeInterval kAnimationDuration  = 0.233f;
     // dismiss timer
     if (maker.duration > 0) {
         __weak UIView *dismissView = toastView;
-        [NSTimer timerWithTimeInterval:maker.duration block:^{
+        [NSTimer scheduledTimerWithTimeInterval:maker.duration block:^{
             [HWToast dismissToast:dismissView animated:animated];
         } repeats:NO];
     }

@@ -177,8 +177,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNA-OH-lAW">
-                                <rect key="frame" x="197" y="114" width="206" height="30"/>
-                                <state key="normal" title="Show text toast and tap event">
+                                <rect key="frame" x="182" y="114" width="235" height="30"/>
+                                <state key="normal" title="Show text toast with HWToastTool">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
