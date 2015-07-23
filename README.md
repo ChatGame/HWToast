@@ -60,6 +60,6 @@ And call like this:
 
 ### HWToastView
 
-You can make your custome toast view inheriting from HWToastView.
+You can make your custom toast view inheriting from HWToastView.
 
 Just like `HWTextToastView` 、 `HWLoadingToastView` and `HWPieChartToastView`.
